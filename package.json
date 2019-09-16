@@ -1,20 +1,20 @@
 {
-  "name": "lzl-pw",
-  "version": "1.0.0",
-  "description": "Lizhiliang's personal website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Scorpio-li/lzl-pw.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Scorpio-li/lzl-pw/issues"
-  },
-  "homepage": "https://github.com/Scorpio-li/lzl-pw#readme"
+    "name": "lzl-pw",
+    "version": "1.0.0",
+    "description": "Lizhiliang's personal website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Scorpio-li/lzl-pw.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Scorpio-li/lzl-pw/issues"
+    },
+    "homepage": "https://github.com/Scorpio-li/lzl-pw"
 }
