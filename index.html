@@ -1,15 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lzl PW</title>
+    <meta charset="utf-8" />
+    <title>良仔个人网站</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+
+    <div class="loading">
+        <img src="img/loading.png" />
+        <p>飞仔正在敲代码......</p>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav_line"></div>
+            <a href="#home">首 页</a>
+            <a href="#about">关于良仔</a>
+            <a href="#skill">相关技能</a>
+            <a href="#dome">示例作品</a>
+            <a href="#contact">联系方式</a>
+        </nav>
+    </header>
+
+    <ul class="btn_list">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="content_mod">
+        <div class="scroll">
+            <div class="page one" id="home">
+                <div class="p_box">
+                    <img src="img/logo.gif" />
+                    <p>欢 迎</p>
+                    <p>您的到来 ^_^</p>
+                </div>
+                <span>了解，从这里开始</span>
+                <div class="mouse">
+                    <img src="img/shubiao.png" />
+                    <div class="shu"></div>
+                </div>
+                <div id="particles"></div>
+            </div>
+
+            <div class="page two" id="about">
+                <ul>
+                    <li id="page_two1">
+                        <div>
+                            <img src="img/姓名.png" />
+                        </div>
+                        <p>姓名</p>
+                        <span class="xian"></span>
+                        <p>李智良</p>
+                    </li>
+                    <li id="page_two2">
+                        <div>
+                            <img src="img/周龄-01.png" />
+                        </div>
+                        <p>年龄</p>
+                        <span class="xian"></span>
+                        <p>26岁</p>
+                    </li>
+                    <li id="page_two3">
+                        <div>
+                            <img src="img/地点.png" />
+                        </div>
+                        <p>地点</p>
+                        <span class="xian"></span>
+                        <p>深圳</p>
+                    </li>
+                    <li id="page_two4">
+                        <div>
+                            <img src="img/职业.png" />
+                        </div>
+                        <p>职业</p>
+                        <span class="xian"></span>
+                        <p>前端开发攻城狮</p>
+                    </li>
+                    <li id="page_two5">
+                        <div>
+                            <img class="two_img5" src="img/学历.png" />
+                        </div>
+                        <p>学历</p>
+                        <span class="xian"></span>
+                        <p>大连大学</p>
+                    </li>
+                </ul>
+
+                <div class="down"></div>
+                <!-- <img class="me" src="img/m.png" /> -->
+            </div>
+
+            <div class="page three" id="skill">
+                <div class="down"></div>
+                <div class="left_box">
+                    <img id="left" src="img/left_w.png" />
+                </div>
+                <div class="right_box">
+                    <img id="right" src="img/right_w.png" />
+                </div>
+
+                <div class="carousel">
+                    <div class="btn_mod">
+                        <ul class="btn_box">
+                            <li class="btns li">JavaScript</li>
+                            <li class="li">HTML</li>
+                            <li class="li">CSS</li>
+                            <!-- <li class="li">PHP</li> -->
+                            <li class="li">Other</li>
+                        </ul>
+                    </div>
+
+                    <div class="img_mod">
+                        <ul class="scroll_two">
+                            <li class="introduce">
+                                <h3>JavaScript</h3>
+                                <p>一、精通 JavaScript 原生编程，对面向对象编程有丰富经验，可进行高效模块化开发，并保证良好复用和维护性。</p>
+                                <p>二、对编写 jQuery 组件有丰富经验</p>
+                                <p>三、熟练使用MVC框架(如BackBone.js)进行复杂页面应用开发。</p>
+                                <p>四、对编写react.js、node.js、angular.js、Bootstrap.js 组件比较了解</p>
+                                <p>五、了解用户体验和各种交互操作流程，对前端页面代码结构及前端交互性能有一定的理解</p>
+                            </li>
+                            <li class="introduce">
+                                <h3>HTML</h3>
+                                <p>一、精通 HTML、XHTML、XML 。</p>
+                                <p>二、对W3C标准有深刻的认识。</p>
+                                <p>三、熟练掌握语义化的 HTML5，已经习惯使用HTML5新标签。</p>
+                                <p>四、能够基于HTML5标准编写可复用的用户界面和组件。</p>
+
+                            </li>
+                            <li class="introduce">
+                                <h3>CSS</h3>
+                                <p>一、精通 CSS3 。</p>
+                                <p>二、能熟练运用CSS3完成各种类型的网页布局，包括当前流行的响应式布局。</p>
+                                <p>三、对于具有兼容性的 CSS 模式（如transform、medio等)已熟练掌握并加以运用。</p>
+                                <p>四、对使用CSS3提升用户体验有浓厚兴趣，喜欢使用CSS3解决过去js达到的效果，曾经常在实际项目中实践(如:transiton、keyframes等)。</p>
+                            </li>
+                            <!-- <li class="introduce">
+									<h3>PHP</h3>
+									<p>一、熟悉 PHP </p>
+									<p>二、对 PHP 语法有一定了解，能写一些简单的 PHP 文件。</p>
+									<p>三、了解 MySQL 数据库系统，能够熟练使用常用指令。</p>
+									<p>四、了解 Apache 服务器，能够做一些简单的操作。</p>					
+									<p>五、熟悉Ajax，能与后台开发工程师配合完成数据交互、动态信息展现。</p>
+								</li> -->
+                            <li class="introduce">
+                                <h3>Other</h3>
+                                <p>一、熟悉常用的终端命令行，能够通过命令行进行 Github、码云 等代码的克隆与上传等一些常用功能。</p>
+                                <p>二、对 Sourcetree和Cornerstone 管理工具已熟练掌握。</p>
+                                <p>三、能快速地把效果图转化为HTML，对移动端网页标准和标签语义化有深入理解，熟悉移动端页面的适配和兼容。</p>
+                                <p>四、熟悉微信开发和 jssdk 接口。</p>
+                                <p>五、因为大学学的平面设计，所以对于 PS、AI、CDR、ID 等常用的设计软件比较精通。</p>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="page four" id="dome">
+
+                <div class="own_works" id="own_works">
+                    <h4 class="pc">P C端 >></h4>
+                    <h4 class="pc">移动端 >></h4>
+                    <h5 class="pc">move</h5>
+                    <h5 class="pc">move</h5>
+                    <div class="pos_box">
+                        <img class="one" src="img/fengka.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>Foamka疯咔</h3>
+                            <p>这个项目的布局并不复杂，但里面小细节较多。主要难点在于不同框架之前的冲突处理。 并且引用了百度地图。</p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                    <div class="pos_box">
+                        <img class="one" src="img/shnng.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>SHNNG网站</h3>
+                            <p>写意英文网站并不复杂。只是页面较多写起来比较费时而已。稍微麻烦的一点儿是瀑布流需要进行预加载， 以及Bim界面的响应式布局需要注意。 </p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                    <div class="pos_box">
+                        <img class="one" src="img/infini.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>INFINI映纷视觉</h3>
+                            <p> 这个网站响应式 </p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                    <div class="pos_box">
+                        <img class="one" src="img/four.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>寻找徐峥</h3>
+                            <p>寻找徐峥是一款微信游戏，可通过扫描 二维码开始游戏哦~游戏代码主要难点在于布局较复杂。寻找徐峥闯关的时候到达一定关卡 会出现新的图案。</p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                    <div class="pos_box">
+                        <img class="one" src="img/four.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>K4</h3>
+                            <p>K4项目主要是一款关于汽车销售的项目。 里面涉及的知识点较多，比如播放视频的时候需要使用cavas写，避免出现空隙。 还有三级联动也是需要注意的一个知识点。</p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                    <div class="pos_box">
+                        <img class="one" src="img/four.jpg" />
+                        <span></span>
+                        <div class="p_box">
+                            <h3>打飞机</h3>
+                            <p>打飞机微信打飞机玩起来比较简单，但是写代码的时候需要考虑比较多的地方。 布局方面使用了雪碧图，js代码运用了面向对象的思想。还有比较重要的一点儿是打飞机分享朋友圈后可查看排名。</p>
+                            <a href="###">点我查看效果</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="down"></div>
+                <img class="bj" src="img/bj4副本.jpg" />
+            </div>
+
+            <div class="page five" id="contact">
+
+                <div class="msg_mod">
+                    <h2 class="m_title">联系 ME >></h2>
+                    <ul>
+                        <li>手机：15110002311</li>
+                        <li>QQ：605529760</li>
+                        <li>邮箱：feizaiart@163.com</li>
+                    </ul>
+
+                    <h2 class="m_title">给 ME 留言 >></h2>
+                    <div class="m_box">
+                        <form action="http://127.0.0.1/fei/own/php.php" method="post" id="form_list">
+                            <div class="m_line clearfix line">
+                                <span class="fl font">姓名：</span>
+                                <input type="text" value="" class="fr input" id="name" name="name" />
+                            </div>
+                            <div class="m_line clearfix line">
+                                <span class="fl font">邮箱：</span>
+                                <input type="text" value="" class="fr input" id="mail" name="mail" />
+                            </div>
+                            <div class="m_line clearfix">
+                                <span class="fl font">内容:</span>
+                                <textarea class="fr textarea" id="msg" name="text" value=""></textarea>
+                            </div>
+                            <div class="m_line clearfix">
+                                <input type="submit" name="sub" class="sub fr" value="提交" />
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div id="down" class="down"></div>
+                <img class="bj" src="img/bj5.jpg" />
+            </div>
+        </div>
+    </div>
+
 </body>
+<script src="js/page5.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/page3.js" type="text/javascript" charset="utf-8"></script>
 
 </html>

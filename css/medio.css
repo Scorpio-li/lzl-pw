@@ -1,0 +1,62 @@
+/*
+ * @authors Ren Xiaofei
+ * @date    2014-7-25
+ * @version personal website
+ */
+
+@media only screen and (min-width: 0px) and (max-width: 565px) {
+header{height: 90px;}
+header nav{padding: 10px 0;}
+
+}
+
+@media only screen and (min-width: 730px) and (max-width: 1088px) {
+.content_mod .scroll .two ul li:nth-of-type(1){top: 30%;left: 30%;}
+.content_mod .scroll .two ul li:nth-of-type(2){top: 30%;left: 68%;}
+.content_mod .scroll .two ul li:nth-of-type(3){top: 55%;left: 30%;}
+.content_mod .scroll .two ul li:nth-of-type(4){top: 55%;left: 68%;}
+.content_mod .scroll .two ul li:nth-of-type(5){top: 80%;left: 68%;}
+	
+}
+
+@media only screen and (min-width: 550px) and (max-width: 730px) {
+.content_mod .scroll .two ul li:nth-of-type(1){top: 25%;left: 15%;}
+.content_mod .scroll .two ul li:nth-of-type(2){top: 25%;left: 60%;}
+.content_mod .scroll .two ul li:nth-of-type(3){top: 50%;left: 15%;}
+.content_mod .scroll .two ul li:nth-of-type(4){top: 50%;left: 60%;}
+.content_mod .scroll .two ul li:nth-of-type(5){top: 75%;left: 60%;}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+.content_mod .scroll .two ul li:nth-of-type(1){top: 19%;left: 35%;}
+.content_mod .scroll .two ul li:nth-of-type(2){top: 35%;left: 35%;}
+.content_mod .scroll .two ul li:nth-of-type(3){top: 50%;left: 35%;}
+.content_mod .scroll .two ul li:nth-of-type(4){top: 65%;left: 23%;}
+.content_mod .scroll .two ul li:nth-of-type(5){top: 80%;left: 23%;}
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+.content_mod .scroll .four .own_works .pos_box{position: relative; width: 47%;margin-right: 5.9%;float: left;margin-bottom: 100px;overflow: hidden;}
+.content_mod .scroll .four .own_works .pos_box:nth-of-type(2){margin-right: 0;}
+.content_mod .scroll .four .own_works .pos_box:nth-of-type(5){margin-right: 0;}
+.content_mod .scroll .four .own_works .pos_box:nth-of-type(3n){margin-right: 0;}
+.content_mod .scroll .four .own_works .pos_box:nth-of-type(3){display: none;}
+.content_mod .scroll .four .own_works .pos_box:nth-of-type(6){display: none;}
+.content_mod .scroll .four .own_works .pos_box .p_box h3{font-size: 18px;line-height: 35px;}
+.content_mod .scroll .four .own_works .pos_box span{height: 35px;}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 620px) {
+.content_mod .scroll .five .msg_mod ul{width: 220px;}
+.content_mod .scroll .five .msg_mod ul li{line-height: 25px;}
+.content_mod .scroll .five .msg_mod{width: 50%;}
+.content_mod .scroll .five .msg_mod .m_line{width: 100%;}
+.content_mod .scroll .five .msg_mod .m_line .input{width: 85%;}
+.content_mod .scroll .five .msg_mod .m_line:nth-of-type(2){ margin-top: -8px;}
+.content_mod .scroll .five .msg_mod .m_box .line:nth-of-type(2){float: left;}
+.content_mod .scroll .five .msg_mod .m_line .textarea{width: 85%;}
+
+}
